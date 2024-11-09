@@ -1,0 +1,10 @@
+.flex-item{
+    --tamanio:90px;
+    width: var(--tamanio);
+    height: var(--tamanio);
+}
+.flex-content{
+    --tamanio: 500px;
+    width: var(--tamanio);
+    height: var(--tamanio);
+}
