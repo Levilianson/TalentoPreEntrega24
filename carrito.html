@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina Base</title>
+        <link rel="icon" href="img/lg.gif">
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">    
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Finger+Paint&display=swap" rel="stylesheet">
+        <!-- CSS Bostrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body id="carrito">
+    <div class="container-fluid">
+        <header id="header" class="container-fluid">
+            
+        </header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid audiowide-regular">
+                <a class="navbar-brand" href="index.html"><img id="icono" src="img/logo512.png" alt="" ></a>
+                <div id="marca">Vende Tutti</div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" ></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>                        
+                        <li class="nav-item dropdown">
+                            <a type="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false"">Contacto</a>
+                            <ul class="dropdown-menu dropdown-menu-lg-end" style="border:groove">
+                                <li><a class="dropdown-item" href="contacto.html">Nosotros</a></li>
+                                <li><a class="dropdown-item" href="resenias.html">Reseñas</a></li>                                    
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a type="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false"">Porductos</a>
+                            <ul class="dropdown-menu dropdown-menu-lg-end" style="border:groove">
+                                <li><a class="dropdown-item" href="productos.html">Nuestro Catalogo</a></li>
+                                <li><a class="dropdown-item" href="ofertas.html">Ofertas Especiales</a></li>                                    
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a type="button" class="btn btn-light nav-link" href="carrito.html"> 🛒 </a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="card" id="carrito_container">
+                <div class="card col-sm-5" >
+                    <img src="img/carrito.png" class="card-img-top" alt="carrito" id="img_carrito">
+                    <div class="card-body">
+                      <h5 class="card-title">Total de tu compra: $</h5>
+                      <p class="card-text"id="item1"><a type="button" href="#" class="card-link btn btn-danger">🗑️</a><a>Item 1: precio: $</a>                        </p>
+                      <p class="card-text"id="item2">
+                      <a type="button" href="#" class="card-link btn btn-danger">🗑️</a><a>Item 2: precio: $</a>                        
+                      <p class="card-text"id="item3"><a type="button" href="#" class="card-link btn btn-danger">🗑️</a><a>Item 3: precio: $</a>                        </p>
+                      <div class="card-body">
+                        <a type="button" href="#" class="card-link btn btn-success">Comprar</a>
+                        <a href="productos.html" class="card-link btn btn-info">Continuar Comprando</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+        </main>
+        <footer class="container-fluid" id="footer">        
+            <div id="redesSociales">
+                <ul id="socialicon">
+                    <li id="social1">
+                        <a href="#" title="Facebook"></a>
+                    </li>
+                    <li id="social2">
+                        <a href="#" title="Twitter"></a>
+                    </li>
+                    <li id="social3">
+                        <a href="#" title="Instagram"></a>
+                    </li>
+                    <li id="social4">
+                        <a href="#" title="Youtube"></a>
+                    </li>
+                    <li id="social5">
+                        <a href="#" title="Pinterest"></a>
+                    </li>
+                    <li id="social6">
+                        <a href="#" title="Spotify"></a>
+                    </li>
+                    <li id="social7">
+                        <a href="#" title="mySpace"></a>
+                    </li>
+                    <li id="social8">
+                        <a href="#" title="Google +"></a>
+                    </li>
+                </ul>
+            </div>
+            <div style="color: rgb(7, 41, 116); justify-self: center;padding: 0 0 10px 0;">⚓...Preentrega Talento tech 2024...🔎<a href="#" target="_blank">README</a></div>
+        </footer>
+    </div>
+    <script src="css/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -6,4 +6,4 @@ Esta preentrega consta de un total de 5 archivos html divididos en:
     
     Contacto posee un mapa con la ubicacion del sitio y un formulario con una consulta o cotizacion, mas las opiniones de compradores; media Queries para diferentes tamaños de pantallas
     
-    Un Carrito el cual posee 2 solapas uno con los objetos seleccionados, ofertas 
+    El carrito es un botón que muestra el total de la compra y los productos

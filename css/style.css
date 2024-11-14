@@ -1,14 +1,21 @@
 /* pagina principal */
 *{
     --color:white;
-    --fondo: beige;
+    --fondo: rgb(203, 218, 134);
+    --imagn:url(../img/star.jpeg);
     margin: 0;
     padding: 0;
     /* formulario */
     box-sizing: border-box;
+    /* background-image: url(../img/past.png); */
+}
+#index{
+    background-image: var(--imagn);
+    /* background-image: url(../img/star.jpeg); */
+    image-orientation: flip;
 }
 main{    
-    background-color:var(--fondo);
+    background-color:transparent;
 }
 #icono{
     width: 30px;        
@@ -32,12 +39,14 @@ nav{
 header{        
     text-align: center;    
     padding: 30px 0 10px 0;
-    background-color: var(--fondo);
+    /* background-color: var(--fondo); */
+    background-color: transparent;
 }
 
 #cuerpo {
     border: none;
-    background-color: var(--fondo);
+    /* background-color: var(--fondo); */
+    background-color: transparent;
 }   
 .carousel-item img{
     height: 100% !important;
@@ -57,13 +66,17 @@ header{
     padding: 10px;
     font-weight: bold;
 }
+.blockquote-footer{
+    color: antiquewhite;
+}
 #tarjeta{
-    color: rgb(180, 22, 212);    
+    color: antiquewhite;    
     border: none;    
     text-align: center;
     font-style:oblique;
     font-weight: bolder;
-    background-color: var(--fondo);
+    /* background-color: var(--fondo); */
+    background-color: transparent;
 }
 footer {
 background-image: url('../img/descanso.png');
@@ -153,8 +166,13 @@ background: transparent url(../img/socialicons.png) -233px 34px;
     font-family: "Finger Paint", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: rgb(52, 92, 211);
+    color: rgb(152, 176, 247);
 }
+.pirata-one-regular {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}  
 .flex-item{
     --tamanio:90px;
     width: var(--tamanio);
@@ -168,6 +186,9 @@ background: transparent url(../img/socialicons.png) -233px 34px;
 /* google font */
 
 /* formulario */
+#formulario{
+    background-image: var(--imagn);
+}
 #mapa{
     justify-self: center;
 }
@@ -176,12 +197,16 @@ background: transparent url(../img/socialicons.png) -233px 34px;
 	width: 90%;
 	margin: auto;
 	padding: 40px;
-    background-color: var(--fondo);
+    /* background-color: var(--fondo); */
+    background-color: transparent;
 }
 body{
-    background-color: var(--fondo);
+    /* background-color: var(--fondo); */
+    background-color: transparent;
 }
-
+h5{
+    color: rgb(72, 84, 93);
+}
 .form_btn{ 
     height: 45px;
 	line-height: 45px;
@@ -199,9 +224,14 @@ body{
 }
 
 /* Productos */
+#productos{
+    background-image: var(--imagn);
+}
 td{
     align-content: center;
-    color: blue;
+    color: rgb(34, 191, 105);
+    font-weight: bold;
+    
 }
 .btAgregar{
     height: 33px;
@@ -217,3 +247,97 @@ td{
 .btAgregar:hover{
     box-shadow: 3px 0px 30px rgb(52, 38, 147);
 }
+/* resenias */
+#resen{
+    background-image: var(--imagn);
+}
+#resenias{
+    margin: 10px;
+}
+.resenias_container{
+    justify-content: center;
+    display: flex;    
+    flex-wrap: wrap;
+    gap: 21px;
+
+}
+.card-img-top{
+    width: 60%;
+    height: 60%;
+    align-self: center;
+    border-radius: 6px;
+    margin: 3px;
+}
+#card_resenias{
+    background-color: #95a9b0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;    
+    box-shadow: 0 4px 8px rgba(184, 45, 45, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;    
+}
+
+/* ofertas */
+#ofer{
+    background-image: var(--imagn);
+}
+#ofertas{
+    margin: 8px 0;
+    background-color: transparent;
+}
+#ofertas .card{
+    background-color: transparent;
+}
+#cant{
+    color: red;
+}
+#ofertas .col .card .card-footer{
+    border-radius: 5px ;
+    border-color: #670303;
+}
+#ofertas .card-body{    
+    justify-items: center;    
+    background-color: #72cff1;
+    border: 1px solid #670303;
+    border-radius: 8px;
+    padding: 20px;    
+    box-shadow: 0 4px 8px rgba(232, 229, 229, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/* carrito */
+#carrito{
+    background-image: url(../img/oferta.jpg);
+}
+#carrito .card{
+    background-color: transparent;
+    border:none;
+    color: rgb(106, 42, 190);
+    background-color:rgba(184, 45, 45, 0.1);  
+}
+#carrito_container{
+    padding: 5px 0;
+    justify-items: center;
+    align-items: center;
+    background-color: transparent;
+    border: none; 
+    
+    text-align: center;
+}
+#carrito_container .card-text{
+    text-align: center;
+    padding-left: 10px;    
+    color: black;
+    font-weight: bold;
+}
+#carrito_container .card-title{
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+
