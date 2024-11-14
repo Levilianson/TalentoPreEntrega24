@@ -13,141 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Finger+Paint&display=swap" rel="stylesheet">
     <!-- CSS Bostrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<style>
-    *{
-        --color:white;
-        margin: 0;
-        padding: 0;
-    }
-    #icono{
-        width: 30px;        
-    }
-    nav{
-        background-image: url(img/suelo.png);
-    }
-    .dropdown-item{
-        color: rgb(76, 79, 228);
-    }
-    .dropdown-menu{
-        background-color: azure;
-    }
-    .nav-link{
-        color: var(--color);
-    }
-    #marca{
-        color: var(--color);
-        
-    }
-    header{        
-        text-align: center;    
-        padding: 30px 0 10px 0;
-    }
 
-    #cuerpo {
-        border: none;
-    }   
-    .carousel-item img{
-        height: 100% !important;
-        justify-self: center;
-        width: 27%;
-    }
-
-    .card-header{
-        text-align: center;
-        background-color: white;
-        border:none;
-    }
-    #tituloInterno{
-        color: rgb(14, 159, 31);
-        text-align: left;
-        font-style: italic;
-        padding: 10px;
-        font-weight: bold;
-    }
-    #tarjeta{
-        color: rgb(180, 22, 212);
-        text-align: center;
-        font-style:oblique;
-        font-weight: bolder;
-    }
-    footer {
-  background-image: url('img/descanso.png');
-  bottom: 0 !important;
-  clear: both;
-  width: 100%;
-}
-.footer {
-  padding: 15px;
-  width: 100%;
-}
-#socialicon {
-  background-repeat: no-repeat;
-  position: relative;
-  height: 34px;
-  width: 400px;
-  margin: 0 auto;
-}
-#socialicon li {
-  list-style: none;
-  height: 34px;
-  width: 34px;
-  float: left;
-}
-#socialicon li a {
-  height: 34px;
-  width: 34px;
-  display: block;
-}
-#socialicon #social1 {
-  background: url(../img/socialicons.png) 0px 0px;
-}
-#socialicon #social2 {
-  background: url(../img/socialicons.png) -32px 0px;
-}
-#socialicon #social3 {
-  background: url(../img/socialicons.png) -65px 0px;
-}
-#socialicon #social4 {
-  background: url(../img/socialicons.png) -99px 0px;
-}
-#socialicon #social5 {
-  background: url(../img/socialicons.png) -130px 0px;
-}
-#socialicon #social6 {
-  background: url(../img/socialicons.png) -164px 0px;
-}
-#socialicon #social7 {
-  background: url(../img/socialicons.png) -198px 0px;
-}
-#socialicon #social8 {
-  background: url(../img/socialicons.png) -233px 0px;
-}
-#socialicon #social1 a:hover {
-  background: transparent url(../img/socialicons.png) 0px -34px;
-}
-#socialicon #social2 a:hover {
-  background: transparent url(../img/socialicons.png) -32px -34px;
-}
-#socialicon #social3 a:hover {
-  background: transparent url(../img/socialicons.png) -65px -34px;
-}
-#socialicon #social4 a:hover {
-  background: transparent url(../img/socialicons.png) -99px 34px;
-}
-#socialicon #social5 a:hover {
-  background: transparent url(../img/socialicons.png) -130px 34px;
-}
-#socialicon #social6 a:hover {
-  background: transparent url(../img/socialicons.png) -164px 34px;
-}
-#socialicon #social7 a:hover {
-  background: transparent url(../img/socialicons.png) -198px 34px;
-}
-#socialicon #social8 a:hover {
-  background: transparent url(../img/socialicons.png) -233px 34px;
-}
-</style>
 <body>   
     <div class="container-fluid">
         <header id="header" class="container-fluid">
@@ -165,23 +33,23 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Productos</a>
+                            <a class="nav-link" href="productos.html">Productos</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a type="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false"">Contacto</a>
                             <ul class="dropdown-menu dropdown-menu-lg-end" style="border:groove">
-                                <li><a class="dropdown-item" href="#">Nosotros</a></li>
-                                <li><a class="dropdown-item" href="#">Reseñas</a></li>                                    
+                                <li><a class="dropdown-item" href="contacto.html">Nosotros</a></li>
+                                <li><a class="dropdown-item" href="resenias.html">Reseñas</a></li>                                 
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a type="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false"">Carrrito</a>
                             <ul class="dropdown-menu dropdown-menu-lg-end" style="border:groove">
-                                <li><a class="dropdown-item" href="#">Tu Carrito</a></li>
-                                <li><a class="dropdown-item" href="#">Ofertas Especiales</a></li>                                    
+                                <li><a class="dropdown-item" href="carrito.html">Tu Carrito</a></li>
+                                <li><a class="dropdown-item" href="ofertas.html">Ofertas Especiales</a></li>                                    
                             </ul>
                         </li>
                     </ul>
@@ -190,7 +58,7 @@
         </nav>
         
     <main id="main" class="container-fluid">    
-        <div class="card card-header" id="tarjeta">Nos dedicamos a vender de todo
+        <div class="card card-header " id="tarjeta"><h4>Nos dedicamos a vender de todo</h4>
         </div>
         
         <div id="imagenesvarias" class="carousel slide" data-bs-ride="carousel">
@@ -224,7 +92,7 @@
         </section>   
     </main>
     <footer class="container-fluid" id="footer">
-        <div style="color: rgb(7, 41, 116); justify-self: center;">⚓...Preentrega Talento tech 2024...🔎<a href="#" target="_blank">README</a></div>
+        
         <div id="redesSociales">
             <ul id="socialicon">
                 <li id="social1">
@@ -253,6 +121,7 @@
                 </li>
             </ul>
         </div>
+        <div style="color: rgb(7, 41, 116); justify-self: center;padding: 0 0 10px 0;">⚓...Preentrega Talento tech 2024...🔎<a href="#" target="_blank">README</a></div>
     </footer>
     </div>
 
