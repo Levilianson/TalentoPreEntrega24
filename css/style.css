@@ -83,11 +83,9 @@ background-image: url('../img/descanso.png');
 bottom: 0 !important;
 clear: both;
 width: 100%;
-}
-.footer {
 padding: 15px;
-width: 100%;
 }
+
 #socialicon {
 background-repeat: no-repeat;
 position: relative;
@@ -219,6 +217,9 @@ h5{
 	cursor: pointer;
 	transition: .1s ease all;
 }
+#sobreText{
+    color:red;
+}
 .form_btn:hover {
 	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
 }
@@ -340,4 +341,24 @@ td{
     font-weight: bold;
     font-size: x-large;
 }
-
+@media only screen and (max-width: 769px) {
+    /* productos */
+    #tabla .table th{
+        display: none;
+    }
+    #tabla .table tr,.table td{
+        /* padding: 0 0 0 10%; */
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        display: block;
+        width: 100%;
+    }
+    /* contacto */
+    #mapa{
+        display: none;
+    }
+    #cardOferta .card .card-img-top{
+        display: none;        
+    }
+}

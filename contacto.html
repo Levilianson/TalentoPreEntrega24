@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>📬 Consulta 📧</title>
     <link rel="icon" href="img/lg.gif">
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +25,7 @@
                 <a class="navbar-brand" href="index.html"><img id="icono" src="img/logo512.png" alt="" ></a>
                 <div id="marca">Vende Tutti</div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon" ></span>
+                    <span class="navbar-toggler-icon" >🔎</span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
@@ -56,33 +56,36 @@
 
         <div class="main" id="mainFormulario">
             <h3 class="finger-paint-regular" style="justify-self: center;">Donde estamos</h3>
-            <br>
+            <br>            
             <div class="formulario__grupo" id="mapa">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4644.181337130403!2d-58.43918917585787!3d-34.605878031366935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1731534778617!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+            <br>
+            <h4 class="finger-paint-regular" style="justify-self: center;">En el Anfiteatro  Eva Perón</h4>
+            <br>
             <form action="" class="formulario" id="formulario">
                 <div class="form-group">
-                    <label for="nombre">Nombre: </label>
+                    <label for="nombre" id="sobreText">Nombre: </label>
                     <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre Completo" > 
                 </div>
                 <div class="form-group">
-                    <label for="nombre">Apellido: </label>
+                    <label for="nombre" id="sobreText">Apellido: </label>
                     <input type="text" name="Apellido" id="Apellido" class="form-control" placeholder="Apellido"> 
                 </div>
                 <div class="form-group">
-                    <label for="telefono">Teléfono:</label>
+                    <label for="telefono" id="sobreText">Teléfono:</label>
                     <input type="text" name="telefono" id="telefono" class="form-control" placeholder="Sin el 0 ni el 15"> 
                 </div>
-                <div class="form-group">
+                <div class="form-group" id="sobreText">
                     <label for="email">Email: </label>
                     <input type="text" name="email" id="email" class="form-control" placeholder="mail@mailito.com"> </div>
-                <div class="form-group">
+                <div class="form-group" id="sobreText">
                     <label for="textContacto">Mensaje: </label>
                     <textarea name="textContacto" id="textContacto" class="form-control"></textarea>
                 </div>
                 <div class="form-group" id="condiciones">
                     <label for="condiciones">
-                        <input type="checkbox" class="condiciones_check" name="terminos" id="terminos"> Acepto los Terminos y Condiciones
+                        <input type="checkbox" class="condiciones_check" name="terminos" id="terminos"> <a style="color: aqua;">Acepto los Terminos y Condiciones</a>
                     </label>
                 </div>
                 <div class="form-group">
@@ -120,7 +123,7 @@
                     </li>
                 </ul>
             </div>
-            <div style="color: rgb(7, 41, 116); justify-self: center;padding: 0 0 10px 0;">⚓...Preentrega Talento tech 2024...🔎<a href="#" target="_blank">README</a></div>
+            <div style="color: rgb(7, 41, 116); justify-self: center;padding: 0 0 10px 0;">⚓...Preentrega Talento tech 2024...🔎<a href="README.md" target="_blank">README</a></div>
         </footer>
     </div>
     <script src="css/bootstrap.bundle.min.js"></script>
